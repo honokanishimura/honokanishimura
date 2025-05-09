@@ -1,7 +1,9 @@
 # Honoka Nishimura
 **Full-Stack Developer | Laravel / React / TypeScript**
 Based in Japan | Open to global remote opportunities.
+
 I’m a junior full-stack developer with a strong foundation in modern web technologies and a passion for creating clean.
+
 
 ### Tech Stack
 **Languages:** PHP, TypeScript, JavaScript  
