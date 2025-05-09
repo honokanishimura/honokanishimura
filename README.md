@@ -1,16 +1,19 @@
-## Hi there 👋
+# Honoka Nishimura
+**Full-Stack Developer | Laravel / React / TypeScript**
+Based in Japan | Open to global remote opportunities.
+I’m a junior full-stack developer with a strong foundation in modern web technologies and a passion for creating clean.
 
-<!--
-**honokanishimura/honokanishimura** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Tech Stack
+**Languages:** PHP, TypeScript, JavaScript  
+**Backend:** Laravel, REST APIs  
+**Frontend:** React, Tailwind CSS, Blade  
+**Database:** MySQL, SQLite
+**Cloud:** AWS
+**Tools:** Git, VSCode
 
-Here are some ideas to get you started:
+### Connect
+Feel free to get in touch:
+- LinkedIn: linkedin.com/in/nickien/
+- Email: honokanishimura1008@gmail.com
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
