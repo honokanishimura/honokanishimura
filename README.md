@@ -5,7 +5,7 @@ It replicates the core logic of a real-world enterprise project developed for NT
 
 ---
 
-## 💻 Technologies Used
+## Technologies Used
 
 | Technology      | Description |
 |------------------|-------------|
@@ -17,7 +17,7 @@ It replicates the core logic of a real-world enterprise project developed for NT
 
 ---
 
-## 📷 Screenshots
+## Screenshots
 
 | Production-style UI | 
 |---------------------|
@@ -29,7 +29,7 @@ This project emphasizes backend logic and functionality, not frontend styling.
 
 ---
 
-## 🔍 Features
+## Features
 
 - Multi-category filtering using dynamic GET parameters
 - URL structure: `?sv=2|3&issues=1|4` (OR within / AND between categories)
@@ -39,7 +39,7 @@ This project emphasizes backend logic and functionality, not frontend styling.
 
 ---
 
-## 📁 File Overview
+## File Overview
 
 | File             | Purpose |
 |------------------|---------|
@@ -52,7 +52,7 @@ This project emphasizes backend logic and functionality, not frontend styling.
 
 ---
 
-## 🧠 Structure Overview
+## Structure Overview
 
 ```txt
 GET: ?k=keyword&sv=2|3&issues=1|4
