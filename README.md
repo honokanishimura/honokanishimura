@@ -19,8 +19,8 @@ It replicates the core logic of a real-world enterprise project developed for NT
 
 ## 📷 Screenshots
 
-| Production-style UI | Localhost Implementation |
-|---------------------|--------------------------|
+| Production-style UI | 
+|---------------------|
 | ![search](https://github.com/user-attachments/assets/aa5cc731-6cf9-449e-9fd3-72f84c2457b1)
 | ![search](https://github.com/user-attachments/assets/6396a35c-61bd-4c01-9c8d-1d42443fabe5)
 
