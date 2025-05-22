@@ -4,9 +4,10 @@ Full-Stack Web Developer | Laravel / React / TypeScript
 Based in Japan  
 Open to global remote opportunities
 
-I am a full-stack web developer with a focus on building maintainable, production-ready applications using modern frameworks and clear architectural principles.  
-I specialize in backend development with Laravel and MySQL, and I bring experience in designing data-driven systems with thoughtful UI and responsive frontends.  
-My approach emphasizes reliability, scalability, and clean code delivery aligned with real-world use cases.
+I’m a full-stack developer with a solid backend background in Laravel and growing expertise in React and TypeScript.  
+While building real-world systems with Laravel and MySQL, also work with React and Node.js.
+
+I focus on writing clean, scalable code and bridging reliable backend logic with flexible, modern frontend design.
 
 ---
 
