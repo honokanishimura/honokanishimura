@@ -1,66 +1,44 @@
-# PHP + SQLite FTS Filter Backend (NTT East Style)
+# Honoka Nishimura
 
-This repository contains a backend prototype for a multi-category filter and full-text search engine, built using PHP, SQLite (FTS5), and MeCab.  
-It replicates the core logic of a real-world enterprise project developed for NTT East Japan.
-
----
+Full-stack web developer focused on building clean, scalable, and user-centric applications.  
+Based in Japan, with a background in both frontend and backend development, and a strong interest in UI/UX, serverless architecture, and international collaboration.
 
 ## Technologies Used
 
-| Technology      | Description |
-|------------------|-------------|
-| PHP             | Plain PHP for backend logic |
-| SQLite + FTS5   | Full-text search support for Japanese keywords |
-| MeCab           | Japanese tokenizer for indexing search terms |
-| GET Parameters  | Encoded multi-filter values (e.g., `sv=2|3`) |
-| Simple MVC-style| Separated logic files: index, common, connect |
+| Technology           | Description                                                 |
+|----------------------|-------------------------------------------------------------|
+| React + TypeScript   | Component-based frontend development                        |
+| Tailwind CSS         | Utility-first responsive styling                            |
+| Vite / Remix         | Fast build tools and routing frameworks                     |
+| Cloudflare Functions | Serverless backend logic                                    |
+| Cloudflare D1        | Lightweight SQLite-based relational database                |
+| Laravel (PHP)        | MVC backend framework for structured API and admin logic    |
+| SQLite + FTS5        | Full-text search support for Japanese keyword queries       |
+| MeCab                | Japanese tokenizer for search term indexing                 |
+| JSON Server          | Mock API support during development                         |
+| GitHub Actions       | CI/CD automation                                            |
 
----
+## Featured Project
 
-## Screenshots
+**E-Commerce UI from Simulated Client Brief**  
+Modular shopping interface with cart, user auth, and order tracking.  
+Deployed using Cloudflare Pages and powered by Cloudflare D1 and Functions.
 
-| Production-style UI | 
-|---------------------|
-| ![search](https://github.com/user-attachments/assets/aa5cc731-6cf9-449e-9fd3-72f84c2457b1)
-| ![search](https://github.com/user-attachments/assets/6396a35c-61bd-4c01-9c8d-1d42443fabe5)
+- Live Demo: https://furniture-app.pages.dev  
+- GitHub Repo: https://github.com/honokanishimura/typescript1
 
-These screenshots show how multi-category checkboxes and keyword input work together to filter results.  
-This project emphasizes backend logic and functionality, not frontend styling.
+## Focus Areas
 
----
+- UI/UX design with accessibility and animation in mind
+- Clean code architecture using modern JavaScript frameworks
+- Cloud-native development using serverless functions
+- Creating multilingual and globally accessible apps
 
-## Features
+## Contact
 
-- Multi-category filtering using dynamic GET parameters
-- URL structure: `?sv=2|3&issues=1|4` (OR within / AND between categories)
-- Full-text search in Japanese via MeCab + SQLite FTS5
-- Supports scalable page types: Column / Case Study / Video / Document
-- Core filter logic centralized in `common.php` for maintainability
+GitHub: https://github.com/honokanishimura  
+Email: honokanishimura1008@gmail.com 
+LinkedIn: https://www.linkedin.com/in/nickien/
 
----
+## Feel free to explore or reuse any of the code in my projects for learning or development purposes!
 
-## File Overview
-
-| File             | Purpose |
-|------------------|---------|
-| `index.php`      | Displays form and handles GET submission |
-| `common.php`     | Parses filters and builds SQL queries |
-| `db_connect.php` | Manages connection to SQLite database |
-| `data_loader.php`| Seeds test data into the DB |
-| `ntt_east.db`    | Prebuilt database with FTS5 support |
-| `examples.json`  | Sample article and category data |
-
----
-
-## Structure Overview
-
-```txt
-GET: ?k=keyword&sv=2|3&issues=1|4
-↓
-common.php parses parameters
-↓
-FTS MATCH + OR/AND logic assembled
-↓
-SQL executed on FTS5-indexed SQLite DB
-↓
-Filtered results returned to index.php
