@@ -42,9 +42,9 @@ Deployed using Cloudflare Pages and powered by Cloudflare D1 and Functions.
 
 ## Contact
 
-GitHub: https://github.com/honokanishimura  
-Email: honokanishimura1008@gmail.com 
-LinkedIn: https://www.linkedin.com/in/nickien/
+- GitHub: https://github.com/honokanishimura  
+- Email: honokanishimura1008@gmail.com 
+- LinkedIn: https://www.linkedin.com/in/nickien/
 
-## Feel free to explore or reuse any of the code in my projects for learning or development purposes!
+### Feel free to explore or reuse any of the code in my projects for learning or development purposes!
 
