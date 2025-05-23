@@ -5,18 +5,24 @@ Based in Japan, with a background in both frontend and backend development, and 
 
 ## Technologies Used
 
-| Technology           | Description                                                 |
-|----------------------|-------------------------------------------------------------|
-| React + TypeScript   | Component-based frontend development                        |
-| Tailwind CSS         | Utility-first responsive styling                            |
-| Vite / Remix         | Fast build tools and routing frameworks                     |
-| Cloudflare Functions | Serverless backend logic                                    |
-| Cloudflare D1        | Lightweight SQLite-based relational database                |
-| Laravel (PHP)        | MVC backend framework for structured API and admin logic    |
-| SQLite + FTS5        | Full-text search support for Japanese keyword queries       |
-| MeCab                | Japanese tokenizer for search term indexing                 |
-| JSON Server          | Mock API support during development                         |
-| GitHub Actions       | CI/CD automation                                            |
+### Frontend
+| Technology         | Description                              |
+|--------------------|------------------------------------------|
+| React + TypeScript | Modern component-based UI development    |
+| Tailwind CSS       | Utility-first styling for responsiveness |
+| Vite / Remix       | Fast build tools and routing frameworks  |
+
+### Backend
+| Technology           | Description                                                |
+|----------------------|------------------------------------------------------------|
+| Laravel              | Structured API development using PHP and MVC              |
+| Cloudflare Functions | Serverless logic for fast API responses                   |
+| Cloudflare D1        | Lightweight relational DB (SQLite-based)                  |
+| SQLite + FTS5        | Full-text search for Japanese keywords                    |
+| MeCab                | Tokenizer for Japanese keyword indexing                   |
+| MySQL                | Relational database for structured, scalable storage      |
+| AWS (EC2 / S3)       | Hosting and storage for scalable backend infrastructure   |
+
 
 ## Featured Project
 
