@@ -1,4 +1,4 @@
-<img src="https://github.com/honokanishimura/honokanishimura/blob/main/Olivia%20Wilson.png?raw=true" />
+<img src="https://github.com/honokanishimura/honokanishimura/blob/main/readme.png?raw=true" />
 
 
 
